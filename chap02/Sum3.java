@@ -1,6 +1,6 @@
-// 2ã¤ã®æ•´æ•°å€¤57ã¨32ã®å’Œã‚’æ±‚ã‚ã¦è¡¨ç¤º (å¼ã¨ã—ã¦è¡¨ç¤º:èª¤ã‚Š)
+// 2‚Æ‚Ì®”’l57‚Æ32‚Ì˜a‚ğ‹‚ß‚Ä•\¦ (®‚Æ‚µ‚Ä•\¦:Œë‚è)
 class Sum3 {
-    public static void main(Strng[] args) {
+    public static void main(String[] args) {
         System.out.println("57 + 32 = " + 57 + 32);
     }
 }
