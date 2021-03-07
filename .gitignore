@@ -38,3 +38,6 @@ Thumbs.db
 
 # private
 *.java_back
+MeikaiJava.iml
+.idea/
+
