@@ -2,15 +2,15 @@
 
 // 銀行口座クラス【第２版】
 class Account {
-    private String name;    // 口座名義
-    private String no;      // 口座番号
-    private long balanace;  // 預金残高
+    private String name;		// 口座名義
+    private String no;			// 口座番号
+    private long balance;		// 預金残高
 
     //--- コンストラクタ ---//
     Account(String n, String num, long z) {
-        name = n;       // 口座名義
-        no = num;       // 口座番号
-        balanace = z;   // 預金残高
+        name = n;				// 口座名義
+        no = num;				// 口座番号
+        balance = z;		// 預金残高
     }
 
     //--- 口座名義を調べる ---//
@@ -24,18 +24,20 @@ class Account {
     }
 
     //--- 預金残高を調べる ---//
-    String getBalance() {
+    long getBalance() {
         return balance;
     }
 
-    //--- k円預かる ---//
-    void deposit(long x) {
-        balance += 0;
-        }
+    //--- k円預ける ---//
+    void deposit(long k) {
+        balance += k;
     }
 
-    //--- k円をおろす ---//
-void With
+    //--- k円おろす ---//
+    void withdraw(long k) {
+        balance -= k;
+    }
+}
 
 // 銀行口座クラス【第２版】をテストするクラス
 class AccountTester {
